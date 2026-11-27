@@ -23,7 +23,7 @@ import sqlite3
 df=pd.read_csv('users.csv')
 df.head()
 
-"""### Checkinf for missing values"""
+"""### Checkinfo for missing values"""
 
 df.isnull().sum()
 
